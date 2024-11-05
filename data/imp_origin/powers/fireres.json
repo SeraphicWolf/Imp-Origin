@@ -1,0 +1,6 @@
+{
+    "name": "Fire Immunity",
+    "description": "As a child of fire, you're completely immune to its effects.\n +1 Fire/Lava Immunity",
+    "type": "origins:fire_immunity",
+    "strength": 1
+}

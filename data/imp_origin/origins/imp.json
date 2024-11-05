@@ -1,0 +1,17 @@
+{
+    "name": "Imp",
+    "description": "You are an mischievous and troublesome creature. with powers of fire and chaos, you can cause all kinds of trouble for those around you.\n\nAnd remember, you are a child of fire.",
+    "powers": [
+        "imp_origin:tinylizard",
+        "imp_origin:toosmall",
+        "imp_origin:darkvision",
+        "imp_origin:fodder",
+        "imp_origin:scamper",
+        "imp_origin:shinybravery",
+        "imp_origin:jumpheight",
+        "imp_origin:fireres",
+        "imp_origin:fireball"
+    ],
+    "order": 2,
+    "impact": 2
+}

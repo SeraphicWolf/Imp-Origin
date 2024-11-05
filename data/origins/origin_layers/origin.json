@@ -1,0 +1,13 @@
+{
+    "order": 1,
+    "origins": [
+        "imp_origin:imp",
+        "imp_origin:test"
+    ],
+    "enabled": true,
+    "loading_priority": 1,
+    "name": "Imp Origin",
+    "missing_name": "???",
+    "missing_description": "???",
+    "default_origin": "test_jumpheight"
+}

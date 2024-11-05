@@ -1,0 +1,13 @@
+{
+    "name": "SuperJump",
+    "description": "gives you jump height",
+    "hidden": true,
+    "type": "origins:modify_jump",
+    "modifier": {
+        "attribute": "generic.jump_strength",
+        "operation": "add_base_early",
+        "amount": 0.2,
+        "name": "juuump"
+    },
+    "update_health": true
+}

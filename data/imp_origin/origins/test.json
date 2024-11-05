@@ -1,0 +1,9 @@
+{
+    "name": "test",
+    "description": "this is  a test origin",
+    "powers": [
+        "imp_origin:test2"
+    ],
+    "unchoosable": true,
+    "impact": 0
+}

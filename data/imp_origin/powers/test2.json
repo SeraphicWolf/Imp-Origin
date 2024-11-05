@@ -1,0 +1,32 @@
+{
+    "name": "test2",
+    "description": "test",
+    "loading_priority": 1,
+    "condition": {
+        "type": "origins:using_item"
+    },
+    "type": "origins:edible_item",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:stone"
+        }
+    },
+    "food_component": {
+        "hunger": 4,
+        "saturation": 1,
+        "snack": true,
+        "effect": {
+            "effect": {
+                "effect": "minecraft:slowness",
+                "duration": 100,
+                "amplifier": 0,
+                "show_particles": true,
+                "show_icon": true
+            },
+            "chance": 1
+        }
+    },
+    "consume_animation": "eat",
+    "priority": 1
+}

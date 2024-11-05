@@ -1,0 +1,54 @@
+{
+    "name": "Too Small!",
+    "description": "Shields are too heavy for your tiny hands. [Shields Restricted]",
+    "type": "origins:multiple",
+    "key0": {
+        "type": "origins:restrict_armor",
+        "head": {
+            "type": "origins:is_damageable"
+        },
+        "chest": {
+            "type": "origins:armor_value",
+            "comparison": ">=",
+            "compare_to": 1
+        },
+        "legs": {
+            "type": "origins:is_damageable"
+        },
+        "feet": {
+            "type": "origins:is_damageable"
+        }
+    },
+    "shieldrestrict": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "shield"
+            }
+        }
+    },
+    "totemrestrict": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:drop_inventory",
+            "inventory_type": "inventory",
+            "item_action": {
+                "type": "origins:nothing"
+            },
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "totem_of_undying"
+                }
+            },
+            "slots": [
+                "mainhand",
+                "offhand"
+            ],
+            "amount": 1,
+            "retain_ownership": true
+        }
+    }
+}

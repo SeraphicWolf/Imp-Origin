@@ -1,0 +1,14 @@
+{
+    "pack": {
+        "name": "Imp",
+        "id": "imp_origin",
+        "pack_format": 26,
+        "version": "1.0.8",
+        "authors": [
+            "VNull",
+            ""
+        ],
+        "description": "Become a Chaotic Imp and Embrace the Imp Life! \n\nTransform your Minecraft adventure with the Imp addon, allowing you to embody a mischievous Imp. Experience new abilities like Dark Vision, Fire Immunity, and Shiny Bravery, while navigating unique challenge",
+        "license": "MIT"
+    }
+}

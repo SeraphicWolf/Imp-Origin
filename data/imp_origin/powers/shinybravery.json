@@ -1,0 +1,149 @@
+{
+    "name": "Shiny Bravery",
+    "description": "Gain various buffs when holding precious metals—gold (haste 1), emerald (haste 1 and strength 1), diamond (haste 1, strength 1, and resistance 1).",
+    "type": "origins:multiple",
+    "gold": {
+        "condition": {
+            "type": "origins:any_of",
+            "conditions": [
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "offhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:gold_ingot"
+                        }
+                    }
+                },
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:gold_ingot"
+                        }
+                    }
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "id": "minecraft:haste",
+                    "duration": 90,
+                    "ambient": false,
+                    "show_particles": false,
+                    "show_icon": false
+                }
+            ]
+        }
+    },
+    "emerald": {
+        "condition": {
+            "type": "origins:any_of",
+            "conditions": [
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "offhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:emerald"
+                        }
+                    }
+                },
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:emerald"
+                        }
+                    }
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "id": "minecraft:haste",
+                    "duration": 90,
+                    "ambient": false,
+                    "show_particles": false,
+                    "show_icon": false
+                },
+                {
+                    "id": "minecraft:strength",
+                    "duration": 90,
+                    "ambient": false,
+                    "show_particles": false,
+                    "show_icon": false
+                }
+            ]
+        }
+    },
+    "diamond": {
+        "condition": {
+            "type": "origins:any_of",
+            "conditions": [
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "offhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:diamond"
+                        }
+                    }
+                },
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:diamond"
+                        }
+                    }
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "id": "minecraft:haste",
+                    "duration": 90,
+                    "ambient": false,
+                    "show_particles": false,
+                    "show_icon": false
+                },
+                {
+                    "id": "minecraft:strength",
+                    "duration": 90,
+                    "ambient": false,
+                    "show_particles": false,
+                    "show_icon": false
+                },
+                {
+                    "id": "minecraft:resistance",
+                    "duration": 90,
+                    "ambient": false,
+                    "show_particles": false,
+                    "show_icon": false
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Dark Vision",
+    "description": "Navigate the darkest caves with ease by having eyes adapted to darkness.\n+0.3 night vision",
+    "type": "origins:night_vision",
+    "strength": 0.3
+}
